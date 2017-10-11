@@ -7,7 +7,7 @@ class WriteAFile {
             writer.write("hello foo!");
             writer.close();
         } catch (Exception ex) {
-            ex.pringStackTrace();
+            ex.printStackTrace();
         }
     }
 }
